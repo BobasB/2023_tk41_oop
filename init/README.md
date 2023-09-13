@@ -14,3 +14,32 @@
 
 ---
 
+### Робота з частинами коду
+- Код можна всталяти просто як текст (так вставляти код неправильно):
+
+    def greet(name):
+        print(f"Hello, {name}!")
+
+- Вставляємо код через блоки з підсвіткою синтаксису (так робити правильно):
+    ```python
+    def greet(name):
+        print(f"Hello, {name}! Using Python")
+    ```
+    - можна підсвічувати різні мови програмування, наприклад Java або якісь застарілі вмови типу Pascal:
+    ```java
+    public class HelloWorld {
+        public static void main(String[] args) {
+            System.out.println("Hello, world! on Java");
+        }
+    }
+    ```
+    ```pascal
+    program HelloWorld;
+    begin
+      writeln('Hello, world!');
+    end.
+    ```
+    ```bash
+    echo "Hello World on Bash"
+    ```
+---
