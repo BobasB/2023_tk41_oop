@@ -8,24 +8,29 @@
     1. Результат виконання програми на скріншоті: ![alt](1.png)
     1. Створили [Python Notebook](nb.ipynb) та додали пояснення до коду;
     1. Модифікували програму додавши використання бібліотеки `time` та запитались у ChatGPT як перевести час з Еpoch до нормального (зрозумілого людині);
+    1. створили новий [Python Notebook](ai.ipynb) в якому всатвили відповідь від ChatGPT де він нам рекомендував першу програму.
+        - в результаті прийшось правити програму самостійно, бо АІ не зміг її відлагодити.
     1. Навчились створювати та запускати програми на Python, працювати в Python Notebook, та за допомогою ChatGPT модифікували нашу першу програму.
 
-- попрактикувались вставляти код та результат простим копіюванням:
+- попрактикувались вставляти код та результат простим копіюванням, ось програма гнерерована ChatGPT:
 ```python
-from datetime import datetime
-name = "Bohdan"
-location = "Lviv"
+# Програма для виведення привітання та введення імені користувача
 
-print(f"{name} start programming at {datetime.now()}. {location} is the best city!")
+# Використовуємо функцію input() для отримання імені користувача
+ім'я = input("Введіть ваше ім'я: ")
+
+# Виводимо привітання разом із ім'ям користувача
+print("Привіт, " + ім'я + "!")
 ```
-Програма вивела:
+Програма вивела помилку:
 ```text
-Admin@Bobas-Desktop MINGW64 /c/IT_College_Students/2023_tk41_oop (main)
-$ C:/Users/Admin/AppData/Local/Programs/Python/Python310/python.exe c:/IT_College_Students/2023_tk41_oop/1_lab/main.py
-Bohdan start programming at 2023-09-20 12:49:39.865234. Lviv is the best city!
+  Cell In[2], line 4
+    ім'я = input("Введіть ваше ім'я: ")
+                                     ^
+SyntaxError: unterminated string literal (detected at line 4)
 ```
 
-- небуло;
+- як індивідуальни завадання, попрацювали з ChatGPT;
 
 ### Висновок: 
 > у висновку потрібно відповісти на запитання:
