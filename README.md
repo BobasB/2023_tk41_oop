@@ -22,10 +22,10 @@
 
 | Лабораторна робота | Статус виконання |
 |---------------------|------------------|
-| [Вступ, робота з Markdown](init/README.md) | :heavy_check_mark: |
+| [Вступ, робота з Markdown](init/README.md)                | :heavy_check_mark: |
 | [Лабораторна робота 1, Оформлення робіт](1_lab/README.md) | :heavy_check_mark: |
-| [Лабораторна робота 2, Основи Python](2_lab/README.md) | :heavy_check_mark: |
-| Лабораторна робота 3 | :x: |
+| [Лабораторна робота 2, Основи Python](2_lab/README.md)    | :heavy_check_mark: |
+| [Лабораторна робота 3, Основи ООП](3_lab/README.md)       | :heavy_check_mark: |
 | Лабораторна робота 4 | :x: |
 | Лабораторна робота 5 | :x: |
 
